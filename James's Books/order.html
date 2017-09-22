@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	<title>Order</title>
+	<meta charset="utf-8">
+<link rel="stylesheet" href="color.css">
+	</head>
+	<body>
+	<div id="wrapper">
+<h1> Order James's Books</h1>
+	<nav>
+	<b><a href="index.html">Home</a> &nbsp; 
+	<a href="Used.html">Used</a> &nbsp; 
+	<a href="New.html">New</a> &nbsp; 
+	<a href="Contact.html">Contact</a> &nbsp;
+	<a href="order.html">Order</a>
+	</b><br><br>
+	</nav>
+	<main>
+	<form method="get">
+	<fieldset>
+	<label for="myEmail">E-mail:</label> <input type="email" name="myEmail" id="myEmail" require="required" placeholder="youremail@email.com"></input><br><br>
+	First Name: <input type="text" name="fname" id="fname" placeholder="Enter First Name"></input><br><br>
+	Last Name: <input type="text" name="lname" id="lname" placeholder="Enter Last Name"></input><br><br>
+	<label for="myDate">Desired Arrival Date:</label>
+	<input type="date" name="mydate" id="mydate"></input><br>
+	</fieldset>
+	<fieldset>
+	<legend>Billing Address:</legend>
+	<label>Street: <input type="text" name="street" id="street" size="54" placeholder="Enter Street"></input></label><br><br>
+	<label>City: <input type="text" name="city" id="city" size="5" placeholder="Enter City"></input></label>
+	<label>State: <input type="text" name="state" id="state" size="5" placeholder="Enter State"></input></label>
+	<label>Zip: <input type="text" name="zip" id="zip" size="5" placeholder="Enter Zip"></input></label>
+	</fieldset>
+	<fieldset>
+	<legend>Card Information:</legend>
+	<label>Card Number: <input type="text" name="cnumber" id="cnumber" size="54" placeholder="Enter Card Number"></input></label><br><br>
+	<label>Expiration: <input type="text" name="expire" id="expire" size="5" placeholder="Enter Expiration"></input></label>
+	<label>Security Code: <input type="text" name="scode" id="scode" size="5" placeholder="3 Digit Code On The Back Of Card"></input></label>
+	</fieldset>
+	Book Title:<br>
+	<textarea name="booktitle" id="booktitle" rows="4" cols="40" placeholder="Enter Book Title"></textarea><br><br>
+	<label for="myChoice">Quantity:</label><br>
+	1<input type="range" name="mychoice" id="mychoice" min="1" max="10">10</input>
+	<input type="submit" value="Order"></input>
+	<input type="reset"></input>
+	</form>
+	</main>
+	
+	
+	<footer>
+	<small><i>Copyright &copy; 2016 James Jones</i></small>
+	</footer>
+	</div>
+	</body>
+</html>

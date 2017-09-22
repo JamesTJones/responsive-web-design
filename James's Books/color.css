@@ -1,0 +1,75 @@
+	
+	body { background-color: #e6e6fa; 
+	color: #191970; 
+	}
+	h1   {background-image: url(books.jpg);
+    width: 80%;
+    padding: 10%;
+    border: 5px solid gray;
+    margin: 0;
+	color: #e6e6fa;
+	text-shadow: 3px 3px 5px #CCCCCC;
+	text-transform: uppercase;
+	}
+	h2   {background-image: url(book.jpg);
+	color: #e6e6fa;
+	height: 100px;
+	text-align: center;
+	padding-top: 50px;
+	text-transform: uppercase;
+	}
+	
+    nav a {text-decoration: none;
+	text-align: center;
+	
+	}
+	ul {
+	float: right;	
+	font-weight: bold;
+	background-color: #aeaed4;
+	list-style-type: none;
+	}
+	ol {
+	float: right; 	
+	font-weight: bold;
+	background-color: #aeaed4;
+	list-style-type: none;
+	}
+	#wrapper {
+    width: 80%;
+    padding: 10%;
+    border: 5px solid gray;
+    margin: 0; 
+}
+
+/* unvisited link */
+a:link {
+    color: blue;
+}
+
+/* visited link */
+a:visited {
+    color: grey;
+}
+
+/* mouse over link */
+a:hover {
+    color: white;
+}
+
+/* selected link */
+a:active {
+    color: black;
+}
+
+h1:hover {
+    opacity: .5;
+}
+
+h2:hover {
+	opacity: .5;
+}
+
+	.question {color: red;}
+	
+	
